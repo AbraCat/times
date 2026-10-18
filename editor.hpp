@@ -138,7 +138,7 @@ private:
                 io_context_.stop();
                 break;
             } else {
-                std::cout << "Неизвестная команда: (справка - help)" << command << "\n";
+                std::cout << "Неизвестная команда (справка - help):" << command << "\n";
             }
         }
     }
