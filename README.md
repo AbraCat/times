@@ -52,7 +52,7 @@
 Компиляция:
 
 ```
-cmake .
+cmake build
 cmake ---build build
 ```
 
@@ -61,7 +61,7 @@ cmake ---build build
 ./build/server
 ```
 
-Запуск клиента:
+Запуск клиента (id - идентификатор репортёра):
 ```
 ./build/client client 127.0.0.1 8080 <id>
 ```
